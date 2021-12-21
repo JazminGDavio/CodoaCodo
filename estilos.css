@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+header {
+    height: 100vh;
+    width: 91%;
+    background-image: url(../Imagenes/ba1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 40% 65%;
+    filter: sepia(10%) brightness(0.65);
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+.titulos {
+    text-align: center;
+}
+.icono1 {
+    color: rgb(52, 52, 52);
+    height: 3rem;
+    transition: all 250ms ease 0s;
+}
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+.card-img-top {
+    width: 10%;
+    object-fit: cover
+}
+.forms{
+    display: inline-block
+}
+.buttonform{
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 9px 13px;
+    color: #fff;
+    border-color: rgba(128, 255, 0, 0.555);
+    background-color: rgba(128, 255, 0, 0.555);
+    border: 1px solid transparent;
+    font-size: 1rem;
+}
+.buttonform:hover{
+    background-color: rgba(128, 255, 0, 0.74);
+}
+#charlaig{
+    text-decoration: none;
+    color: #000;
+    border-bottom:2px dotted black;
+}
